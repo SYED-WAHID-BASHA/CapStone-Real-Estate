@@ -85,21 +85,21 @@ const Basic = ({ user, data, setData, setToken }) => {
                   id="Price"
                   value={Price}
                   onChange={(e) => setPrice(e.target.value)}
-                  placeholder="name"
+                  placeholder="price"
                   className="input"
                 />
                 <h4>Property age</h4>
                 <input
                   type="text"
                   id="age"
-                  placeholder="name"
+                  placeholder="property age"
                   className="input"
                 />
                 <h4>Property Description</h4>
                 <input
                   type="text"
                   id="desc"
-                  placeholder="name"
+                  placeholder="description"
                   className="input"
                 />
               </div>
@@ -123,7 +123,7 @@ const Basic = ({ user, data, setData, setToken }) => {
                 <input
                   type="text"
                   id="approv"
-                  placeholder="name"
+                  placeholder="approved or not"
                   className="input"
                 />
                 <h4>Bank Loan</h4>
@@ -132,7 +132,7 @@ const Basic = ({ user, data, setData, setToken }) => {
                   id="loan"
                   value={loan}
                   onChange={(e) => setLoan(e.target.value)}
-                  placeholder="name"
+                  placeholder="loan"
                   className="input"
                 />
               </div>
